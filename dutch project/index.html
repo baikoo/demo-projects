@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="Memory.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Philosopher&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="heading-game">
+<h1>Memory Game</h1>
+</div>
+
+
+<section class="memory-game">
+    <div class="memory-card" data-framework="Cat">
+        <img class="front-face" src="icons/Cat.jpg" alt="Cat"/>
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+    <div class="memory-card" data-framework="Cat">
+        <img class="front-face" src="icons/Cat.jpg" alt="Cat" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+
+    <div class="memory-card" data-framework="Monkey" >
+        <img class="front-face" src="icons/Monkey.jpg" alt="Monkey" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+    <div class="memory-card" data-framework="Monkey">
+        <img class="front-face" src="icons/Monkey.jpg" alt="Monkey" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" />
+        <div>click here</div>
+    </div>
+
+    <div class="memory-card" data-framework="Panda">
+        <img class="front-face" src="icons/Panda.jpg" alt="Panda" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+    <div class="memory-card" data-framework="Panda">
+        <img class="front-face" src="icons/Panda.jpg" alt="Panda" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+
+    <div class="memory-card" data-framework="Pig">
+        <img class="front-face" src="icons/Pig.jpg" alt="Pig" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+    <div class="memory-card" data-framework="Pig">
+        <img class="front-face" src="icons/Pig.jpg" alt="Pig" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+
+    <div class="memory-card" data-framework="Tiger">
+        <img class="front-face" src="Tiger.jpg" alt="Tiger" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+    <div class="memory-card" data-framework="Tiger">
+        <img class="front-face" src="icons/Tiger.jpg" alt="Tiger" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+
+    <div class="memory-card" data-framework="Whale">
+        <img class="front-face" src="icons/Whale.jpg" alt="Whale" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+    <div class="memory-card" data-framework="Whale">
+        <img class="front-face" src="Whale.jpg" alt="Whale" />
+        <img class="back-face" src="Back_side_of_a_card.jpg" alt="JS Badge" onmousedown="flip_audio.play()"/>
+        <div>click here</div>
+    </div>
+</section>
+
+
+<p>Bekijk hier onze<a href="hall%20of%20fame.html">Hall of Fame</a>
+
+
+<p id="ToggleButton" onclick="showToggle()">Lees hier interessante informatie over deze puzzel</p>
+
+<ul id="ToggleTarget">
+    <li>De <a href="https://www.speluitleg.com/memory/">spelregels</a></li>
+    <li>Memory op <a href="https://nl.wikipedia.org/wiki/Memory">Wikipedia</a></li>
+    <li>De <a href="https://www.driwa.org/cafekidz/memoryinfo.htm ">Deutsche Memory Meisterschaft</a></li>
+</ul><br>
+<p><input type="button" value="Refresh" onclick="refresh(this)"></p>
+<script type="text/javascript" src="JSnew.js"></script>
+</body>
+</html>
+
+

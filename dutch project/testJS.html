@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .selected{background-color: red; font-weight: bold; color: #fff;}
+    </style>
+</head>
+<body>
+<table id="table" border="1">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <th>A1</th>
+        <th>B1</th>
+        <th>C1</th>
+    </tr>
+    <tr>
+        <th>A2</th>
+        <th>B2</th>
+        <th>C2</th>
+    </tr>
+    <tr>
+        <th>A3</th>
+        <th>B3</th>
+        <th>C3</th>
+    </tr>
+    <tr>
+        <th>A4</th>
+        <th>B4</th>
+        <th>C4</th>
+    </tr>
+    <tr>
+        <th>A5</th>
+        <th>B5</th>
+        <th>C5</th>
+    </tr>
+    <tr>
+        <th>A6</th>
+        <th>B6</th>
+        <th>C6</th>
+    </tr>
+    <tr>
+        <th>A7</th>
+        <th>B7</th>
+        <th>C7</th>
+    </tr>
+</table>
+
+<script>
+/* function to change the background color of a row by clicking on it */
+    function selectedRow() {
+
+        var index,
+            table = document.getElementById("table");
+
+        for(var i =0; i < table.rows.length; i++)
+        {
+            table.rows[i].onclick = function ()
+            {
+                if (typeof index !== "undefined")
+                {
+                    table.rows[index].classList.toggle("selected");
+                }
+
+                //Get the selected row index
+                index = this.rowIndex;
+                //Add class 'selected' to the row
+                this.classList.toggle("selected");
+                console.log(index)
+            }
+        }
+
+    }
+    selectedRow();
+
+</script>
+
+
+</body>
+</html>

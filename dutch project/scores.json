@@ -1,0 +1,32 @@
+[{
+    "name": "Sophie",
+    "id": 1,
+    "date": "13/04/2022",
+    "NumberofTurns": "19",
+    "time": "01:25"
+},
+{
+    "name": "Sophie",
+    "id": 2,
+    "date": "13/04/2022",
+    "NumberofTurns": "19",
+    "time": "01:25"
+},
+{
+    "name": "Sophie",
+    "id": 3,
+    "date": "13/04/2022",
+    "NumberofTurns": "19",
+    "time": "01:25"
+},
+{
+    "name": "Sophie",
+    "id": 4,
+    "date": "13/04/2022",
+    "NumberofTurns": "19",
+    "time": "01:25" 
+}]
+
+//json doesn't contain comments so I will just write here and you can delete it. 
+//blue things, on the left side are called key and red things on the right are called value
+//[] these squares mean array, where you can have several objects

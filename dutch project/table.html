@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hall of fame</title>
+    <link rel="stylesheet" href="Memory.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Philosopher&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+<h1 class="">  Memory Hall of Fame</h1>
+<label for="card-num">Choose number of cards:</label>
+
+<select id="card-Num" name="select">
+    <option value="">Number of cards</option>
+</select>
+<table class="hall-of-fame-table" id="hall-of-fame-tableID" onclick="selectedColor()">
+    <thead>
+        <tr>
+            <th class="hall-of-fame-th">rank</th>
+            <th class="hall-of-fame-th">name</th>
+            <th class="hall-of-fame-th">data</th>
+            <th class="hall-of-fame-th">Number of Turns</th>
+            <th class="hall-of-fame-th">time</th>
+        </tr>
+        
+    </thead>
+    <tbody id="myTable" value="">
+
+    </tbody>
+</table>
+<p>Speel <a href="index.html">hier</a> het spel</p>
+<script type="text/javascript" src="baia.js"></script>
+<script type="text/javascript" src="scores.json"></script>
+</body>
+</html>
+<!-- this is the -->
