@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="./footer.css">
+      <title>Document</title>
+   </head>
+   <body>
+<!--HEADER-->
+<div class="bg-overlay"></div>
+<header class="bg-black ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black main-padding Industry-Ultra">
+        <div class="container-fluid px-0">
+            <div class="navbar-brand me-xl-5 me-md-4 pt-0">
+                <a href="index.html"><img src="assets/images/logo.png" class="me-3" alt=""></a> 
+                <a href="index.html"><img src="assets/images/px.png" alt=""></a> 
+
+            </div>
+          <button class="navbar-toggler border-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <img src="assets/images/close-btn.svg" class="navbar-toggler-close-icon" alt="">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto bg-black zindex-dropdown mb-2 mb-lg-0 me-2">
+              <li class="nav-item me-3 ">
+                <a class="nav-link px-0 text-white" href="index.html">მთავარი</a>
+              </li>
+              <li class="nav-item me-3 active">
+                <a class="nav-link px-0 text-white" href="courses.html">კურსები</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link px-0 text-white" href="event-list.html">ღონისძიებები</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link px-0 text-white" href="blog-list.html">ბლოგი</a>
+              </li>
+              <li class="nav-item">
+                  <div id="search" class="search position-relative center-vertically">
+                      <input type="text" class="br-3px">
+                      <div class="px-2 search-btn position-absolute top-0 end-0">
+                          <img src="assets/images/red-clock-icon.svg" alt="">
+                      </div>
+                  </div>
+              </li>
+
+            </ul>
+            <div class="lang me-4 ">
+               <div class="dropdown">
+                    <a class="btn btn-secondary dropdown-toggle lang-dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="position-relative">EN</span>
+                        <img  src="assets/images/lang-dropdown.svg" alt="">
+                    </a>
+                    <ul class="dropdown-menu p-0 rounded-0 w-100" aria-labelledby="dropdownMenuLink">
+                        <li class="w-100"><a class="dropdown-item text-white active" href="#"><span class="position-relative">EN</span></a></li>
+                        <li><a class="dropdown-item text-white" href="#"><span class="position-relative">ქარ</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="auth ms-3 ">
+                <a href="#"  class="text-decoration-none text-white">ავტორიზაცია</a>
+            </div>
+          </div>
+        </div>
+      </nav> 
+</header>
+   <div class="bg-grey main-padding">
+      <div class="breadcrumb pt-5 pb-3 Contractica-Regular">
+         <p class="mb-0 me-1">მთავარი გვერდი</p>
+         <p class="mb-0 mx-1">></p>
+         <p class="mb-0 ms-1">პირადი კაბინეტი</p>
+      </div>
+      <div class="d-block section-header Industry-Ultra">
+         <p class="mb-0">პირადი კაბინეტი</p>
+      </div>
+      <div class="user-info mt-2">
+         <p class="mb-4 Contractica-Bold">სახელი გვარი</p>
+      </div>
+         <div class="container-fluid px-0">
+            <div class="row justify-content-between">
+               <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 mb-3 Contractica-Bold">
+                  <a href="profile.html" class="text-decoration-none">
+                    <div class="bg-white text-black br-3px p-4 profile-list">
+                    <img src="assets/images/my-courses.svg" class="me-3" alt="">
+                    <p class="mb-0 d-inline ms-4">ჩემი კურსები</p>
+                  </div></a>
+                  <a href="profile1.html" class="text-decoration-none">
+                    <div class="bg-white text-black br-3px p-4 profile-list">
+                      <img src="assets/images/notifications.svg" alt="" class="me-3">
+                      <p class="mb-0 d-inline ms-4">შეტყობინებები</p>
+                      <span class="bg-black top-n5px position-relative border border-secondary text-white bg-warning float-end px-3 pt-2 pb-1">3</span>
+                    </div>
+                  </a>
+                  <a href="profile2.html" class="text-decoration-none">
+                    <div class="bg-blue text-white br-3px p-4 profile-list">
+                      <img src="assets/images/profile-active.svg" alt="">
+                      <p class="mb-0 d-inline ms-5">პირადი პროფილი</p>
+                    </div>
+                  </a>
+                  <div class="bg-white text-black br-3px my-4 p-4 profile-list">
+                    <img src="assets/images/profile.svg" alt="">
+                    <p class="mb-0 d-inline ms-5">გასვლა</p>
+                  </div>
+                </div>
+               <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12 mb-9">
+                  <div class="bg-white px-3 px-xl-5 px-lg-5 px-md-4 px-sm-3 px-xs-3 py-4">
+                     <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                           <div class="form-floating  mb-3">
+                              <input type="email" class="form-control register-form br-3px" placeholder="123" name="name">
+                              <label for="name">სახელი</label>
+                           </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                           <div class="form-floating mb-3">
+                              <input type="text" class="form-control register-form" placeholder="123" name="surname">
+                              <label for="surname">გვარი</label>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-floating  mb-3">
+                           <input type="age" class="form-control register-form br-3px" placeholder="123" name="age">
+                           <label for="age">ასაკი</label>
+                        </div>
+                     </div>
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-floating mb-3">
+                           <input type="text" class="form-control register-form" placeholder="123" name="mobile">
+                           <label for="mobile">ტელეფონის ნომერი</label>
+                        </div>
+                     </div>
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-floating  mb-3">
+                           <input type="email" class="form-control register-form br-3px" placeholder="123" name="email">
+                           <label for="email">ელ-ფოსტა</label>
+                        </div>
+                     </div>
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-floating mb-3">
+                           <input type="password" class="form-control register-form" placeholder="123" name="password">
+                           <label for="password">არსებული პაროლი</label>
+                        </div>
+                     </div>
+                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="form-floating mb-3">
+                           <input type="password" class="form-control register-form" placeholder="123" name="new-password">
+                           <label for="new-password">ახალი პაროლი</label>
+                        </div>
+                     </div>
+                     <div class="auth d-inline-flex justify-content-center rounded w-50 bg-black text-white mt-4 px-5 pt-3 pb-3">
+                        <b class="mb-0 Contractica-Bold">რედაქტირება</b>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+       <!--FOOTER-->
+       <footer>
+         <div class="main-footer bg-black main-padding text-white">
+             <div class="container-fluid">
+                 <div class="row  py-5">
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sx-12 ps-0">
+                         <h6 class="text pb-3 Industry-Ultra">კონტაქტი</h6>
+                         <p class="text_list2 d-inline-flex Contractica-Medium mb-2">ტელეფონი: <span class="Contractica-Regular ms-3">+995 551 303 315</span></p>
+                         <br>
+                         <p class="text_list2 d-inline-flex Contractica-Medium mb-2">ელ-ფოსტა: <span class="Contractica-Regular ms-3">303hertz@gmail.com</span></p>
+                         <br>
+                         <p class="text_list2 d-inline-flex Contractica-Medium mb-2 position">მისამართი: <span class="Contractica-Regular ms-3">ათონელის #31 თბილისი, <br> საქართველო</span></p>
+                         <br>
+                         <div class="icons pt-4 pr-4">
+                                 <a href="#" class="icon_link p-2" ><img class="icon_img" width="10px"   src="assets/images/Path 84.png" alt="FB"></a>
+                                 <a href="#" class="icon_link p-2" ><img class="icon_img" width="20px"  src="assets/images/Group 4581.png" alt="INS"></a>
+                                 <a href="#" class="icon_link p-2" ><img class="icon_img" width="20px"  src="assets/images/Path 89.png" alt="YT"></a>
+                                 <a href="#" class="icon_link p-2" ><img class="icon_img" width="20px"  src="assets/images/Group 4585.png" alt="SC"></a>
+                         </div>
+                     </div>
+                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sx-12 mt-md-4 mt-sm-4 mt-sx-4 mt-lg-0 mt-xl-0 mt-4  px-0">
+                         <div class="maps-image">
+                             <img class="w-100" src="assets/images/maps.png" alt="">
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="lower-footer main-padding bg-blue text-white  ">
+             <div class="center-vertically float-start lower-footer__text">
+                 <p class="mb-0 d-inline">© 2021. საქართველო, თბილისი | </p>
+                 <p class="mb-0 d-inline">ყველა უფლება დაცულია</p>
+             </div>
+             <img class="center-vertically float-end footer-logo" src="assets/images/logo.png" alt="">
+             
+         </div>        
+     </footer>
+   </body>
+</html>

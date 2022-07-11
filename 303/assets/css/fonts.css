@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Industry-Ultra;
+    src: url('../fonts/industry-ultra.ttf');
+}
+
+@font-face {
+    font-family: Contractica-Bold;
+    src: url('../fonts/Contractica-Bold.ttf');
+}
+@font-face {
+    font-family: Contractica-Book;
+    src: url('../fonts/Contractica-Book.ttf');
+}
+@font-face {
+    font-family: Contractica-Light;
+    src: url('../fonts/Contractica-Light.ttf');
+}
+@font-face {
+    font-family: Contractica-Medium;
+    src: url('../fonts/Contractica-Medium.ttf');
+}
+@font-face {
+    font-family: Contractica-Regular;
+    src: url('../fonts/Contractica-Regular.ttf');
+}
+@font-face {
+    font-family: Contractica-Black;
+    src: url('../fonts/Contractica-Black.ttf');
+}
+
+.Industry-Ultra{
+    font-family: Industry-Ultra;
+}
+.Contractica-Bold{
+    font-family: Contractica-Bold;
+}
+.Contractica-Book{
+    font-family: Contractica-Book;
+}
+.Contractica-Black{
+    font-family: Contractica-Black;
+}
+.Contractica-Light{
+    font-family: Contractica-Light;
+}
+.Contractica-Regular{
+    font-family: Contractica-Regular;
+}
+.Contractica-Medium{
+    font-family: Contractica-Medium;
+}
